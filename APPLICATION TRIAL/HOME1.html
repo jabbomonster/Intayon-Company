@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Intayon</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+/* Style the body */
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+}
+
+/* Header/logo Title */
+.header {
+  padding: 80px;
+  text-align: center;
+  background: #1abc9c;
+  color: white;
+}
+
+/* Increase the font size of the heading */
+.header h1 {
+  font-size: 40px;
+}
+
+/* Style the top navigation bar */
+.navbar {
+  overflow: hidden;
+  background-color: #333;
+}
+
+/* Style the navigation bar links */
+.navbar a {
+  float: left;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 20px;
+  text-decoration: none;
+}
+
+/* Right-aligned link */
+.navbar a.right {
+  float: right;
+}
+
+/* Change color on hover */
+.navbar a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* Column container */
+.row {  
+  display: -ms-flexbox; /* IE10 */
+  display: flex;
+  -ms-flex-wrap: wrap; /* IE10 */
+  flex-wrap: wrap;
+}
+
+/* Create two unequal columns that sits next to each other */
+/* Sidebar/left column */
+.side {
+  -ms-flex: 30%; /* IE10 */
+  flex: 30%;
+  background-color: #f1f1f1;
+  padding: 20px;
+}
+
+/* Main column */
+.main {   
+  -ms-flex: 70%; /* IE10 */
+  flex: 70%;
+  background-color: white;
+  padding: 20px;
+}
+
+/* Fake image, just for this example */
+.fakeimg {
+  background-color: #aaa;
+  width: 100%;
+  padding: 20px;
+}
+
+/* Footer */
+.footer {
+  padding: 20px;
+  text-align: center;
+  background: #ddd;
+}
+
+/* Responsive layout - when the screen is less than 700px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 700px) {
+  .row {   
+    flex-direction: column;
+  }
+}
+
+/* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of each other instead of next to each other */
+@media screen and (max-width: 400px) {
+  .navbar a {
+    float: none;
+    width: 100%;
+  }
+}
+</style>
+</head>
+<body>
+
+<div class="header">
+  <h1>Intayon Company</h1>
+  <p>THINKover Mobile Application</p>
+</div>
+
+<div class="navbar">
+  <a href="#">Counseling Service</a>
+  <a href="Products.html">Products and Services</a>
+  <a href="Contact.html">Contact Us</a>
+  <a href="#" class="right">Download</a>
+</div>
+
+<div class="row">
+  <div class="side">
+    <h2>About Us</h2>
+    
+    <p>THINKover Mobile Application offers a one of a kind counseling service. It is unique and distinct for the reason that it is very rare for a company to cater the well being of clients. The mobile application is a proposal that will accommodate clients who feel unmotivated whether in academics, career or personal life. This mobile application is an easy access app with an affordable subscription fees. Downloading of mobile application is free so the customers will only pay for their subscription that varies whether they will choose gold or platinum membership and will be availing the counseling service on a daily, weekly or monthly basis. Signing in to the mobile application will give an access where they can contact a professional help via personal emails, they can also communicate through groups with the same interest, receive a daily motivational quotes or feature topics that will brighten up the day. The clients can avail the service anytime, and wherever they are for its operation is 24/7.​
+
+​</p>
+    <h3>Contact</h3>
+    <p>IntayonCompanythinkoverapp@gmail.com
+
+2nd Floor of Pine Lake View,
+
+Otek St. corner Benjamin Salvosa Drive</p>
+    <div class="fakeimg" style="height:60px;">Image</div><br>
+    <div class="fakeimg" style="height:60px;">Image</div><br>
+    <div class="fakeimg" style="height:60px;">Image</div>
+  </div>
+  <div class="main">
+    <h2>Angelica Macadangdang
+Chief Executive Officer</h2>
+    <h5>“Let's end the stigma! 'We will work hand in hand to provide quality service"</h5>
+    <div class="fakeimg" style="height:200px;">Image</div>
+    <br>
+	
+    <h2>Edralyn Orallo
+Chief Marketing Officer</h2>
+    <h9>" Our goal is to promote THINKover app to help more clients give value on mental health"</h9>
+    <div class="fakeimg" style="height:200px;">Image</div>
+	
+	   <h2>Mark Millana
+Chief Technology Officer</h2>
+    <h8>"We will continue to develop mobile application for the benefit of our clients"</h8>
+    <div class="fakeimg" style="height:200px;">Image</div>
+   </div>
+</div>
+
+</body>
+</html>
